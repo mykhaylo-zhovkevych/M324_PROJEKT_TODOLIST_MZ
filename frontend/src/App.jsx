@@ -102,14 +102,15 @@ function App() {
           ToDo Liste
         </h1>
         <form onSubmit={handleSubmit} className='todo-form'>
-          <label htmlFor="taskdescription">Neues Todo anlegen:</label>
-          <input
-            type="text"
-            value={taskdescription}
-            onChange={handleChange}
-          />
-          <button type="submit">Absenden</button>
-        </form>
+        <label htmlFor="taskdescription">Neues Todo anlegen:</label>
+        <input
+          id="taskdescription"  // <--- hier hinzufügen
+          type="text"
+          value={taskdescription}
+          onChange={handleChange}
+        />
+        <button type="submit">Absenden</button>
+      </form>
         <div>
           {renderTasks(todos)}
         </div>
