@@ -23,4 +23,19 @@ public class Task {
 	@NotBlank
 	private String taskdescription; // must have the EXACT name as his React state property and may not be ignored!
 
+	public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return this.id;
+    }
+
+	 public void setTaskdescription(String taskdescription) {
+        this.taskdescription = taskdescription;
+    }
+
+    public String getTaskdescription() {
+        return this.taskdescription;
+    }
 }
