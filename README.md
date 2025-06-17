@@ -50,3 +50,4 @@ Dazu werden die erwarteten Daten eingesetzt (z. B. durch ein Mock) und anschli
 Der erste JUnit-Test funktioniert einwandfrei.
 Beim zweiten Test, der mit Jest durchgeführt wurde, hatte ich allerdings Probleme, da ich die Konfigurationen nicht korrekt einstellen konnte.
 Aus diesem Grund hat der zweite Test nicht wie erwartet funktioniert.
+![image](https://github.com/user-attachments/assets/c77c0ffd-77f8-4dbe-866e-67cdf88b63cc)
